@@ -64,3 +64,6 @@ jobs:
         run: |
           chmod +x ./deploy.sh || true
           ./deploy.sh staging ${{ github.sha }}
+
+
+    
